@@ -17,7 +17,7 @@ for i in range(1,s+1):
     for i in l2:
         if(i=='pass'):
             c=c+1
-    if(c==5):
+    if(c==n):
         total=sum(l1)
         per=(total/(n*100))*100
         if(per>=90):
@@ -36,3 +36,4 @@ for i in range(1,s+1):
         print(f"you have failed {n-c} subjects.please rewrite the failed exams")
 
         
+
